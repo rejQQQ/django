@@ -8,15 +8,7 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, nostrum eum assumenda facere eos, delectus consequatur dolorem praesentium hic ipsum expedita officia! Suscipit sed eos tempore ipsum nam atque itaque.</p>
         <button class="btn btn btn-warning">На страницу о нас</button>
 
-        {% for el in values %}
-            {% if el == 'Hello' %}
-                <p>{{ el|upper }}</p>
-            {% endif %}
-        {% endfor %}
 
-        {% for el in obj %}
-            <p>{{ el }}</p>
-        {% endfor %}
     </div>
 
 {% endblock %}
