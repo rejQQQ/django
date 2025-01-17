@@ -1,0 +1,28 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Софты{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Софты</h1>
+        {% if news %}
+            {% for el in news %}
+                <div class="alert alert-warning">
+                    <h3>{{ el.title }}</h3>
+                    <p>{{ el.anons }}</p>
+                    <p>{{ el.full_text }} </p>
+                    <p>{{ el.price }} </p>
+                </div>
+        
+            {% endfor %}
+        {% else %}
+            <p>Софтов нет</p>
+        {% endif %}
+
+        {# Коментарий #}
+    
+    
+    
+    </div>
+
+{% endblock %}

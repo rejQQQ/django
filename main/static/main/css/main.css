@@ -1,0 +1,73 @@
+body {
+    background: linear-gradient(135deg, #2c2c2c, #4a4a4a); /* Градиент от темного серого к более светлому серому */
+}
+
+aside{
+    float: left;
+    background: #181818;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 5px solid #4d4d4d;
+
+}
+aside img{
+    width: 80px;
+    float: left;
+}
+aside .logo{
+    font-size: 40px;
+    margin-left: 25px;
+    font-weight: bold;
+    position: relative;
+    top: -5px;
+}
+
+aside h3{
+    margin-top: 50px;
+    font-size: 28px;
+}
+aside ul{list-style: none;}
+aside ul li a {
+    color: inherit; /* Убирает стандартный цвет ссылки */
+    color: azure;
+    text-decoration: none; /* Убирает подчеркивание */
+}
+aside ul li{
+    color: #1c0b0b;
+    display: block;
+    margin-top: 20px;
+    transition: transform .3s ease;
+}
+
+aside ul li:hover, aside ul li:hover a{
+    color: #eb5959;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+main .features{
+    float: left;
+    color: azure;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+main .features h1{font-size: 50px;}
+main .features p{max-width: 600px; margin: 10px auto;}
+
+
+.alert-warning{
+    float: left;
+    clear: both;
+    width: 100%;
+    margin: 20px 34%;
+    text-align: left;
+}
+
+form{
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 50px;
+}
